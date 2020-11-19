@@ -1,0 +1,20 @@
+husband(X, 'akane').
+brother(X, 'uzumaki_matami').
+grandparent(X, 'senju_tsunade').
+wife(X, 'senju_hashirama').
+sister(X, 'senju_nawaki').
+child(X, 'nara').
+parent(X, 'uzumaki_nagato').
+sibling(X, 'uzumaki_sichiro').
+brotherinlaw(X, 'uzumaki_kushina').
+sisterinlaw('uzumaki_kushina', 'nara').
+aunt('uzumaki_matami', 'uzumaki_kiku').
+nephew(X, 'uzumaki_mito').
+son(X, 'chiko').
+daughter('senju_tsunade', 'masaru').
+granddaughter(X, 'uzumaki_ren').
+spouse('kesu_mimi', 'ise').
+brotherinlaw('senju_nawaki','uzumaki_fuso').
+grandfather(X, 'uzumaki_naruto').
+grandmother('uzumaki_mio', 'kesu_manami').
+uncle(X, 'senju_shigeko').

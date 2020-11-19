@@ -1,0 +1,59 @@
+?- husband(X, 'akane').
+X = uzumaki_kenta.
+
+?- brother(X, 'uzumaki_matami').
+X = uzumaki_ren ;
+
+?- grandparent(X, 'senju_tsunade').
+X = uzumaki_mito ;
+X = senju_hashirama ;
+
+?- wife(X, 'senju_hashirama').
+X = uzumaki_mito .
+
+?- sister(X, 'senju_nawaki').
+X = senju_tsunade .
+
+?- parent(X, 'nara').
+false.
+?- child(X, 'chiko').
+X = uzumaki_kiku.
+?- sibling(X, 'uzumaki_sichiro').
+X = uzumaki_mito ;
+
+݃?- brotherinlaw(X, 'uzumaki_yuto').
+X = senju_shigeko ;
+
+?- nephew(X, 'uzumaki_mito').
+X = uzumaki_yuto.
+
+?- granddaughter(X, 'uzumaki_ren').
+X = uzumaki_kushina.
+
+?- son(X, 'chiko').
+X = uzumaki_kiku.
+
+?- uncle(X, 'senju_shigeko').
+X = uzumaki_sichiro .
+
+?- grandfather(X, 'uzumaki_naruto').
+X = uzumaki_kiku .
+
+?- grandson(X, 'uzumaki_hayata').
+X = uzumaki_yuto ;
+X = senju_shigeko.
+
+?- sisterinlaw('uzumaki_kushina', 'nara').
+false.
+
+?- aunt('uzumaki_matami', 'uzumaki_kiku').
+true 
+
+?- spouse('kesu_mimi', 'ise').
+false.
+
+?- brotherinlaw('senju_nawaki','uzumaki_fuso').
+false.
+
+?- grandmother('araki_kouta', 'senju_shigeko').
+true.

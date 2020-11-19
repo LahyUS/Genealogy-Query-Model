@@ -1,0 +1,106 @@
+grandfather(X, 'prince_william').
+X = prince_phillip ;
+false.
+
+nephew(X, 'princess_anne').
+X = prince_william ;
+X = prince_harry ;
+X = james_viscount_severn ;
+false.
+
+nephew(X, 'prince_george').
+false.
+
+niece(X,'prince_charles').
+X = zara_phillips ;
+X = princess_beatrice ;
+X = princess_eugenie ;
+X = lady_louise_mountbatten_windsor ;
+false.
+
+grandson(X, 'prince_charles').
+X = prince_george ;
+false.
+
+grandchild(X, 'princess_diana').
+X = prince_george ;
+X = princess_charlotte ;
+false.
+
+wife(X, 'prince_charles').
+false.
+
+husband('captain_mark_phillips', 'princess_anne').
+false.
+
+husband(X, 'princess_anne').
+X = timothy_laurence
+
+sibling(X, 'james_viscount_severn').
+X = lady_louise_mountbatten_windsor ;
+false.
+
+mother(X, 'prince_andrew').
+X = queen_elizabethII ;
+false.
+
+niece(X, 'princess_anne').
+X = princess_beatrice ;
+X = princess_eugenie ;
+X = lady_louise_mountbatten_windsor ;
+false.
+
+uncle('timothy_laurence', 'james_viscount_severn').
+true ;
+false.
+
+aunt(X, 'james_viscount_severn').
+X = princess_anne ;
+false.
+
+grandmother('queen_elizabethII', 'isla_phillips').
+false.
+
+grandmother('queen_elizabethII', 'zara_phillips').
+true .
+
+grandmother(X, 'mia_grace_tindall').
+X = princess_anne ;
+false.
+
+sister(X, 'james_viscount_severn').
+X = lady_louise_mountbatten_windsor ;
+false.
+
+wife('queen_elizabethII', 'mike_tindall').
+false.
+
+father(X,'princess_eugenie').
+X = prince_andrew ;
+false.
+
+daughter(X, 'princess_anne').
+X = zara_phillips.
+
+son(X, 'sarah_ferguson').
+false.
+
+brother(X, 'zara_phillips').
+̀X = peter_phillips ;
+false.
+
+uncle(X, 'princess_eugenie').
+X = prince_charles ;
+X = prince_edward ;
+X = timothy_laurence ;
+false.
+
+grandchild(X, 'queen_elizabethII').
+X = prince_william ;
+X = prince_harry ;
+X = princess_eugenie ;
+X = princess_beatrice ;
+X = peter_phillips ;
+X = zara_phillips ;
+X = lady_louise_mountbatten_windsor ;
+X = james_viscount_severn.

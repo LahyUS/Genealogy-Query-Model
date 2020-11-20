@@ -43,6 +43,12 @@ X = uzumaki_kiku .
 X = uzumaki_yuto ;
 X = senju_shigeko.
 
+?- greataunt(X, 'uzumaki_kushina').
+X = uzumaki_matami 
+
+?- greatgrandfather(X, 'uzumaki_naruto').
+X = uzumaki_ren ;
+
 ?- sisterinlaw('uzumaki_kushina', 'nara').
 false.
 
@@ -56,4 +62,7 @@ false.
 false.
 
 ?- grandmother('araki_kouta', 'senju_shigeko').
+true.
+
+?- daughterinlaw(yasu, chiko).
 true.

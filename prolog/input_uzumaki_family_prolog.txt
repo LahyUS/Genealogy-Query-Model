@@ -13,10 +13,13 @@ son(X, 'chiko').
 uncle(X, 'senju_shigeko').
 grandfather(X, 'uzumaki_naruto').
 grandson(X, 'uzumaki_hayata').
+greataunt(X, 'uzumaki_kushina').
+greatgrandfather(X, 'uzumaki_naruto').
 sisterinlaw('uzumaki_kushina', 'nara').
 aunt('uzumaki_matami', 'uzumaki_kiku').
 daughter('senju_tsunade', 'masaru').
 spouse('kesu_mimi', 'ise').
 brotherinlaw('senju_nawaki','uzumaki_fuso').
 grandmother('araki_kouta', 'senju_shigeko').
+daughterinlaw(yasu, chiko).
 

@@ -1,0 +1,113 @@
+child(X, molly_weasley).
+X = percy_weasley ;
+X = george_weasley ;
+X = fred_weasley ;
+X = ginny_weasley ;
+X = bill_weasley ;
+X = ron_weasley.
+
+wife(hermione_granger, harry_potter).
+false.
+
+boyfriend(X, victoire_weasley).
+X = teddy_lupin.
+
+girlfriend(roxanne_weasley, teddy_lupin).
+false.
+
+son(X, audrey_weasley).
+false.
+
+aunt(X, dominique_weasley).
+X = angelina_johnson ;
+X = audrey_weasley ;
+X = ginny_weasley ;
+X = hermione_granger.
+
+uncle(X, lily_luna_potter).
+X = percy_weasley ;
+X = george_weasley ;
+X = fred_weasley ;
+X = bill_weasley ;
+X = ron_weasley.
+
+grandchild(X, arthur_weasley).
+X = dominique_weasley ;
+X = fred_weasley_ii ;
+X = molly_weasley_ii ;
+X = louis_weasley ;
+X = victoire_weasley ;
+X = rose_weasley ;
+X = james_sirius_potter ;
+X = lucy_weasley ;
+X = lily_luna_potter ;
+X = hugo_weasley ;
+X = roxanne_weasley ;
+X = albus_severus_potter.
+
+grandson(james_sirius_potter, X).
+X = arthur_weasley ;
+X = james_potter ;
+X = lily_potter ;
+X = molly_weasley.
+
+granddaughter(lucy_weasley, james_potter).
+false.
+
+daughter(X, fleur_delacour).
+X = dominique_weasley ;
+X = victoire_weasley.
+
+father(X, hugo_weasley).
+X = ron_weasley.
+
+mother(molly_weasley, molly_weasley_ii).
+false.
+
+husband(X, nymphadora_tonks).
+X = remus_lupin.
+
+brother(X, scorpius_malfoy).
+false.
+
+sister(rose_weasley, hugo_weasley).
+true.
+
+sibling(X, albus_severus_potter).
+X = james_sirius_potter ;
+X = lily_luna_potter.
+
+grandfather(X, louis_weasley).
+X = arthur_weasley.
+
+grandmother(X, fred_weasley_ii).
+X = molly_weasley.
+
+grandparent(X, james_sirius_potter).
+X = lily_potter ;
+X = arthur_weasley ;
+X = james_potter ;
+X = molly_weasley.
+
+niece(X, angelina_johnson).
+X = dominique_weasley ;
+X = lucy_weasley ;
+X = lily_luna_potter ;
+X = molly_weasley_ii ;
+X = victoire_weasley ;
+X = rose_weasley.
+
+nephew(X, fred_weasley).
+X = james_sirius_potter ;
+X = fred_weasley_ii ;
+X = hugo_weasley ;
+X = louis_weasley ;
+X = albus_severus_potter.
+
+nephew(X, percy_weasley).
+X = james_sirius_potter ;
+X = fred_weasley_ii ;
+X = hugo_weasley ;
+X = louis_weasley ;
+X = albus_severus_potter.
+

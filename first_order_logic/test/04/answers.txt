@@ -1,0 +1,6 @@
+parent(james_potter, harry_potter).
+T ;
+r ;
+u ;
+e.
+

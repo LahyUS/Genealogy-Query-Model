@@ -1,0 +1,25 @@
+1.grandfather(X, 'prince_william').
+2.nephew(X, 'princess_anne').
+3.nephew(X, 'prince_george').
+4.niece(X,'prince_charles').
+5.grandson(X, 'prince_charles').
+6.grandchild(X, 'princess_diana').
+7.wife(X, 'prince_charles').
+8.husband('captain_mark_phillips', 'princess_anne').
+9.husband(X, 'princess_anne').
+10.sibling(X, 'james_viscount_severn').
+11.mother(X, 'prince_andrew').
+12.niece(X, 'princess_anne').
+13.uncle('timothy_laurence', 'james_viscount_severn').
+14.aunt(X, 'james_viscount_severn').
+15.grandmother('queen_elizabeth', 'isla_phillips').
+16.grandmother('queen_elizabeth', 'zara_phillips').
+17.grandmother(X, 'mia_grace_tindall').
+18.sister(X, 'james_viscount_severn').
+19.wife('queen_elizabethII', 'mike_tindall').
+20.father(X,'princess_eugenie').
+21.daughter(X, 'princess_anne').
+22.son(X, 'sarah_ferguson').
+23.brother(X, 'zara_phillips').
+24.uncle(X, 'princess_eugenie').
+25.grandchild(X, 'queen_elizabethII').

@@ -1,0 +1,3 @@
+grandparent(X, prince_william).
+[X = queen_elizabethII, X = prince_phillip].
+

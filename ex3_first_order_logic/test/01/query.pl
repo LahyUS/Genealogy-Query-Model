@@ -1,0 +1,1 @@
+grandparent(X, prince_william).
